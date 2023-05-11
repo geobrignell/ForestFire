@@ -8,3 +8,6 @@ Therefore C++ code with OpenMP parallelisation was used for all sections of this
 
 The forest fire model is a simple case of stochastic spreading whereby its evolution is determined by the properties and behaviour of its nearest neighbours. A forest fire model simulates a forest via a grid of trees and spaces. Fire is then implemented and is allowed to spread through the forest under certain rules.
 A report of the investigation is found in ForestFire_Optimisation.pdf
+
+
+![forestPic](https://github.com/geobrignell/ForestFire/assets/89096835/71e9f0cc-c165-4f14-b59e-e582894208c8)
