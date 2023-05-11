@@ -1,0 +1,23 @@
+ssh -----@bc4login.acrc.bris.ac.uk
+
+scp filename ----@bc4login.acrc.bris.ac.uk:~/*filename*
+
+to get compileres:
+module load languages/intel/2020-u4
+
+change endlines to unix:
+dos2unix filename  
+
+sbatch bashsciptfilename //submit to slurm
+
+to view queue, 
+squeue -u --------  //view slurm queue
+
+running MPI:
+mpiicpc -std=c++17 filename  //compiling on hpc for MPI
+
+
+squeue --me -h -o "%i" | xargs scancel  //cancel all jobs
+
+
+-fopenmp    // flag for openMP

@@ -1,0 +1,23 @@
+Timings for the python grid with N=200, p = 0.6
+
+Python:
+seed | time (s):
+42     38.2
+1      55.2
+2      39.1
+
+Cpp:
+seed | time (s):
+42     0.39
+1      0.31
+2      0.43
+
+
+Cpp with -O2:
+seed | time (s):
+42     0.39
+1      0.28
+2      0.44
+
+For grid N=2000, p =0.6, seed 42
+time : too big, over a minute
