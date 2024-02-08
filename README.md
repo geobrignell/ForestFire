@@ -11,3 +11,4 @@ A report of the investigation is found in ForestFire_Optimisation.pdf
 
 
 ![forestPic](https://github.com/geobrignell/ForestFire/assets/89096835/71e9f0cc-c165-4f14-b59e-e582894208c8)
+the picture included is from the python simulation labeled initSim
